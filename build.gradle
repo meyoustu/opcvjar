@@ -25,6 +25,7 @@ repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+    // maven { url 'https://jitpack.io' }
 
 
     // maven {
@@ -57,6 +58,7 @@ dependencies {
 
     // Use JUnit Jupiter Engine for testing.
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.0'
+    // implementation 'com.github.meyoustu:opcvjar:2020.6.15'
 }
 
 
