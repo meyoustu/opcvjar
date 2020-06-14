@@ -45,8 +45,7 @@ public class OpenCVNativeLoader implements OpenCVInterface {
                     }
                 }
                 System.loadLibrary("lib/" + Core.NATIVE_LIBRARY_NAME);
-                Logger.getLogger(getClass().getPackageName()).log(Level.INFO,
-                                "Successfully loaded OpenCV native library.");
+                Logger.getLogger("org.opencv.osgi").log(Level.INFO, "Successfully loaded OpenCV native library.");
 
             } catch (Exception e) {
                 e.printStackTrace();
