@@ -13,7 +13,7 @@ allprojects {
 
 
 dependencies {
-    implementation 'com.github.meyoustu:opcvjar:2020.6.14'
+    implementation 'com.github.meyoustu:opcvjar:2020.6.14.2339'
 }
 ```
 
@@ -32,6 +32,6 @@ Maven:
 <dependency>
     <groupId>com.github.meyoustu</groupId>
     <artifactId>opcvjar</artifactId>
-    <version>2020.6.14</version>
+    <version>2020.6.14.2339</version>
 </dependency>
 ```
