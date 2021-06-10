@@ -1,4 +1,4 @@
-# opcvjar [ OpenCV library for Java. ]
+# opcvjar [ OpenCV library for Java ]
 ### Download
 
 Gradle:
