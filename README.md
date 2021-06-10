@@ -1,4 +1,4 @@
-# opcvjar [ OpenCV library for Java ]
+# ocv-java
 ### Download
 
 Gradle:
@@ -13,7 +13,7 @@ allprojects {
 
 
 dependencies {
-    implementation 'com.github.meyoustu:opcvjar:2020.6.15'
+    implementation 'com.github.meyoustu:ocv-java:2020.6.15'
 }
 ```
 
@@ -31,7 +31,7 @@ Maven:
 
 <dependency>
     <groupId>com.github.meyoustu</groupId>
-    <artifactId>opcvjar</artifactId>
+    <artifactId>ocv-java</artifactId>
     <version>2020.6.15</version>
 </dependency>
 ```
